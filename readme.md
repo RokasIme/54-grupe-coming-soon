@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://rokasime.github.io/
+Site published at: https://rokasime.github.io/54-grupe-coming-soon/
 
 Design: ![alt text](./img/coming%20soon.png)
 
@@ -45,7 +45,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://rokasime.github.io/
+   git clone https://github.com/RokasIme/54-grupe-coming-soon.git
    ```
 2. Install NPM packages
    ```sh
