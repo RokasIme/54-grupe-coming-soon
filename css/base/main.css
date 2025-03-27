@@ -40,9 +40,11 @@ body {
 }
 
 .hero {
+  min-height: 100vh;
   background-image: url(../../img/hero.png);
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
 }
