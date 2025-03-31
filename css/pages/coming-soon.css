@@ -1,5 +1,6 @@
 @import "../base/main.css";
 @import "../base/layout.css";
 /* Components */
+@import "../components/mouse.css";
 @import "../components/clock.css";
-/* custom */
+@import "../components/progress-bar.css"; /* custom */

@@ -19,8 +19,12 @@
   width: 600px;
   gap: 20px;
 }
-.container .left-column {
+.container .left-column,
+.container .right-column {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 .container .right-column {
   width: 40%;
