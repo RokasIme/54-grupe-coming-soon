@@ -47,7 +47,7 @@
     width: 400px;
     flex-direction: column;
   }
-  .container .left-column,
+  .container .column,
   .container .right-column {
     width: 100%;
   }
