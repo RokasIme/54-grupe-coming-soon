@@ -1,6 +1,63 @@
+/* vendors */
+@import "../vendors/font-awesome.min.css";
+
+/* base */
 @import "../base/main.css";
 @import "../base/layout.css";
+
 /* Components */
 @import "../components/mouse.css";
 @import "../components/clock.css";
-@import "../components/progress-bar.css"; /* custom */
+@import "../components/progress-bar.css";
+@import "../components/socials.css";
+
+/* custom */
+
+.footer {
+  color: #fffc;
+  padding-top: 0;
+}
+.footer p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer p a:hover {
+  text-decoration: underline;
+}
+
+.trio {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+.trio > p {
+  position: relative;
+}
+.trio > p::after {
+  content: "";
+  display: block;
+  width: 0.1rem;
+  height: 1em;
+  background-color: #fff;
+  margin-left: 0.7rem;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -0.55rem;
+}
+
+.trio > p:last-child::after {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .trio {
+    flex-direction: column;
+  }
+
+  .trio > p::after {
+    display: none;
+  }
+}
