@@ -48,10 +48,12 @@ textarea:focus {
   background-color: #ec1d61;
   padding: 0.5rem 1rem;
   border: none;
+  box-shadow: 0 0.1rem 0.2rem #0006;
+  border-radius: 0.2rem;
 }
 
 .btn__submit:hover {
-  box-shadow: 0 0.2rem 0.4rem #666;
+  box-shadow: 0 0.2rem 0.4rem #0006;
 }
 
 textarea {
@@ -99,8 +101,23 @@ textarea::placeholder {
   border: none;
   justify-content: center;
   border-radius: 0.2rem;
+  box-shadow: 0 0.1rem 0.2rem #0006;
 }
 
 .btn__subscribe:hover {
-  box-shadow: 0 0.2rem 0.4rem #666;
+  box-shadow: 0 0.2rem 0.4rem #0006;
+}
+
+@media (max-width: 44rem) {
+  form {
+    flex-direction: column;
+  }
+  .input__name,
+  .input__email {
+    width: 100%;
+  }
+  .btn__submit {
+    width: fit-content;
+    justify-content: center;
+  }
 }

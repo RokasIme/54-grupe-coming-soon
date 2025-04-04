@@ -16,7 +16,29 @@
 }
 
 .progress-bar .bar {
-  height: 100%;
+  height: inherit;
   width: 90%;
+}
+
+.progress-bar .bar::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: inherit;
   background-color: #03a9f5;
+  border-radius: 0.2rem;
+  animation: progressBar 3s ease-in-out;
+}
+
+.bottom {
+  border-radius: 0.2rem;
+}
+
+@keyframes progressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
