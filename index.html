@@ -107,16 +107,28 @@
               assumenda sequi voluptatum repellat.
             </p>
             <form>
-              <div>
-                <label for="username">Username</label>
-                <input
-                  id="username"
-                  autofocus
-                  type="email"
-                  autocomplete="email"
-                />
-                <button type="">register</button>
+              <div class="input__name">
+                <label for="name">Name</label>
+                <input id="name" placeholder="Name" type="text" name="name" />
               </div>
+              <div class="input__email">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  placeholder="Email"
+                  type="email"
+                  name="email"
+                />
+              </div>
+              <div class="input__message">
+                <label for="message">Message</label>
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button class="btn__submit" type="submit">Send mesage</button>
             </form>
           </div>
         </div>
